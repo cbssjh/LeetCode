@@ -10,7 +10,7 @@ class Solution {
             int rightsquare = nums[right] * nums[right];
             
             //만약 leftSquare가 rightSquare보다 크면, 
-            //leftSquare 값을 result 배열에 저장하고 left 포인터를 한 칸 증가시킵니다.
+            // leftSquare 값을 result 배열에 저장하고 left 포인터를 한 칸 증가시킵니다.
             if (leftsquare > rightsquare){
                 result[index] = leftsquare;
                 left++;
@@ -21,6 +21,7 @@ class Solution {
             index--;
         }
         return result;
+        
         }
             
    }
