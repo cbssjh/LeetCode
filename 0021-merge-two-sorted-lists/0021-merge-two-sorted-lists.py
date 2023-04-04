@@ -10,7 +10,7 @@ class Solution:
             if list1.val < list2.val: #list1이 list2보다 작을 때
                 cur.next = list1
                 list1 = list1.next
-            else: # list2가 list2보다 작거나 같을 때
+            else: # list2가 list1보다 작거나 같을 때
                 cur.next = list2
                 list2 = list2.next
             cur = cur.next
