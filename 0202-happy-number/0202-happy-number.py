@@ -10,7 +10,8 @@ class Solution:
         
         p = n
         q = square_sum(n)
-        # 1이 될때까지, 혹은 
+        
+        # 1이 될때까지, 혹은 p랑 q가 같을때까지 반복
         while q != 1 and p != q:
             p = square_sum(p)
             q = square_sum(square_sum(q))
